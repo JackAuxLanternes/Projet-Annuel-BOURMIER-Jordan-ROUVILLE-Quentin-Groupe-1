@@ -1,0 +1,1 @@
+-lmingw32 -mwindows C:/MinGW/lib/libSDLmain.a C:/MinGW/lib/libSDL.dll.a C:/MinGW/lib/libpng.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
