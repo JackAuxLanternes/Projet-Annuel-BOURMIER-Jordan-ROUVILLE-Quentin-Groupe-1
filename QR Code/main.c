@@ -42,7 +42,7 @@ static void printQr(const uint8_t qrcode[]) {
     for (int y = -border; y < size + border; y++) {
         for (int x = -border; x < size + border; x++) {
             if (qrcodegen_getModule(qrcode, x, y)) {
-                fputs(("##"), stdout);
+                fputs(("##"), stdout);              //TODO: C'est cette ligne qui sort le QR Code
             }
             else{
                 fputs((" "), stdout);
