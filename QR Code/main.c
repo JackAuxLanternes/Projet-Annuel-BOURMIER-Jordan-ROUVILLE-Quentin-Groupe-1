@@ -16,8 +16,8 @@ static void printQr(const uint8_t qrcode[]);
 // Creates QR Codes with manually specified segments for better compactness.
 static void doSegmentDemo(void) {
     {  // Illustration "silver"
-        const char *silver0 = "THE SQUARE ROOT OF 2 IS 1.";
-        const char *silver1 = "41421356237309504880168872420969807856967187537694807317667973799";
+        const char *silver0 = "Bon bah c'est bien beau tout ça";
+        const char *silver1 = " mais il nous reste encore plein de trucs à faire :c";
         uint8_t qrcode[qrcodegen_BUFFER_LEN_MAX];
         uint8_t tempBuffer[qrcodegen_BUFFER_LEN_MAX];
         bool ok;
@@ -37,44 +37,43 @@ static void doSegmentDemo(void) {
 
 
 static void printQr(const uint8_t qrcode[]) {
-    int size = qrcodegen_getSize(qrcode);
-    int border = 4;
-    for (int y = -border; y < size + border; y++) {
-        for (int x = -border; x < size + border; x++) {
-            if (qrcodegen_getModule(qrcode, x, y)) {
-                fputs(("##"), stdout);              //TODO: C'est cette ligne qui sort le QR Code
-            }
-            else{
-                fputs((" "), stdout);
-            }
-        }
-        fputs("\n", stdout);
-    }
-    fputs("\n", stdout);
-}
 
-int main( int argc, char* args[] )
-{
     SDL_Surface *screen;
+    SDL_Surface *rectangle;
+    SDL_Rect position;
     SDL_Surface *shot;
     Uint32 color;
 
-    if (SDL_Init(SDL_INIT_VIDEO) < 0 || (screen = SDL_SetVideoMode(640, 480, 0, 0)) == 0)
+    int size = qrcodegen_getSize(qrcode);
+    int border = 4;
+
+    if (SDL_Init(SDL_INIT_VIDEO) < 0 || (screen = SDL_SetVideoMode(size*10, size*10, 0, 0)) == 0)
     {
         fprintf(stderr, "Video initialization failed: %s\n", SDL_GetError());
         exit(-1);
     }
 
-    color = SDL_MapRGB(screen->format,0,0,0);
+    color = SDL_MapRGB(screen->format,255,255,255);
     SDL_FillRect(screen, NULL, color);
 
-    //TODO: QR Code
+    rectangle = SDL_CreateRGBSurface(SDL_HWSURFACE, 10, 10, 32, 0, 0, 0, 0);
 
-    printf("Ja");
+    SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, 255, 255, 255));
+    SDL_Flip(screen); // Mise à jour de l'écran
 
-    doSegmentDemo();
+    for (int y = -border; y < size + border; y++) {
+        for (int x = -border; x < size + border; x++) {
+            if (qrcodegen_getModule(qrcode, x, y)) {
+                position.x = x*10;
+                position.y = y*10;
+                // Remplissage de la surface avec du blanc
+                SDL_FillRect(rectangle, NULL, SDL_MapRGB(screen->format, 0, 0, 0));
+                SDL_BlitSurface(rectangle, NULL, screen, &position); // Collage de la surface sur l'écran
 
-    //TODO: PNG
+                SDL_Flip(screen); // Mise à jour de l'écran
+            }
+        }
+    }
 
     /* Update screen, just so we can see it */
     SDL_Delay(100);
@@ -87,5 +86,11 @@ int main( int argc, char* args[] )
     SDL_FreeSurface(shot);
 
     SDL_Quit();
+}
+
+int main( int argc, char* args[] )
+{
+    doSegmentDemo();
+
     return 0;
 }
