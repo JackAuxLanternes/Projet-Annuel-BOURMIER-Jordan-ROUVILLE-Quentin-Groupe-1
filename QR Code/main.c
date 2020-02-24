@@ -7,15 +7,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include "qrcodegen.h"
-
-#include "savepng.h" // includes <png.h>, you must link with -lpng
+#include "savepng.h"
 
 static void doSegmentDemo(void);
 static void printQr(const uint8_t qrcode[]);
 
-// Creates QR Codes with manually specified segments for better compactness.
 static void doSegmentDemo(void) {
-    {  // Illustration "silver"
+    {
         const char *silver0 = "Bon bah c'est bien beau tout ça";
         const char *silver1 = " mais il nous reste encore plein de trucs à faire :c";
         uint8_t qrcode[qrcodegen_BUFFER_LEN_MAX];

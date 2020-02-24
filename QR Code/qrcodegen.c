@@ -349,16 +349,8 @@ testable int getNumRawDataModules(int ver) {
 	return result;
 }
 
-
-
-/*---- Reed-Solomon ECC generator functions ----*/
-
-// Computes a Reed-Solomon ECC generator polynomial for the given degree, storing in result[0 : degree].
-// This could be implemented as a lookup table over all possible parameter values, instead of as an algorithm.
 testable void reedSolomonComputeDivisor(int degree, uint8_t result[]) {
 	assert(1 <= degree && degree <= qrcodegen_REED_SOLOMON_DEGREE_MAX);
-	// Polynomial coefficients are stored from highest to lowest power, excluding the leading term which is always 1.
-	// For example the polynomial x^3 + 255x^2 + 8x + 93 is stored as the uint8 array {255, 8, 93}.
 	memset(result, 0, (size_t)degree * sizeof(result[0]));
 	result[degree - 1] = 1;  // Start off with the monomial x^0
 	
