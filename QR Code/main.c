@@ -64,22 +64,20 @@ static void printQr(const uint8_t qrcode[]) {
             if (qrcodegen_getModule(qrcode, x, y)) {
                 position.x = x*10;
                 position.y = y*10;
-                // Remplissage de la surface avec du blanc
+                
                 SDL_FillRect(rectangle, NULL, SDL_MapRGB(screen->format, 0, 0, 0));
-                SDL_BlitSurface(rectangle, NULL, screen, &position); // Collage de la surface sur l'écran
+                SDL_BlitSurface(rectangle, NULL, screen, &position);
 
-                SDL_Flip(screen); // Mise à jour de l'écran
+                SDL_Flip(screen);
             }
         }
     }
 
-    /* Update screen, just so we can see it */
     SDL_Delay(100);
     SDL_Flip(screen);
     SDL_Delay(1000);
 
-    /* Save screen as PNG */
-    shot = SDL_PNGFormatAlpha(screen);	/* SDL_PNGFormatAlpha is optional, but might be necessary for SCREEN surfaces */
+    shot = SDL_PNGFormatAlpha(screen);
     SDL_SavePNG(shot, "qrcode.png");
     SDL_FreeSurface(shot);
 
