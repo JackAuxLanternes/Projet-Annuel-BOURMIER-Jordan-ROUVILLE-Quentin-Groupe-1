@@ -1,4 +1,0 @@
-C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_SH=CMAKE_SH-NOTFOUND -G "CodeBlocks - MinGW Makefiles" "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\QR Code"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/QR Code/cmake-build-debug
