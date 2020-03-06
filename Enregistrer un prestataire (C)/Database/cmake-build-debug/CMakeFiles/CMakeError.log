@@ -1,0 +1,777 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_6a2a1/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6a2a1.dir\build.make CMakeFiles/cmTC_6a2a1.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a2a1.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_6a2a1.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_6a2a1.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6a2a1.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_6a2a1.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_6a2a1.dir/objects.a @CMakeFiles\cmTC_6a2a1.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_6a2a1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6a2a1.exe -Wl,--out-implib,libcmTC_6a2a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6a2a1.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_6a2a1.dir\build.make:87: recipe for target 'cmTC_6a2a1.exe' failed
+mingw32-make.exe[1]: *** [cmTC_6a2a1.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_6a2a1/fast' failed
+mingw32-make.exe: *** [cmTC_6a2a1/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_e539d/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e539d.dir\build.make CMakeFiles/cmTC_e539d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e539d.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_e539d.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_e539d.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e539d.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_e539d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_e539d.dir/objects.a @CMakeFiles\cmTC_e539d.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_e539d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e539d.exe -Wl,--out-implib,libcmTC_e539d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e539d.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_e539d.dir\build.make:87: recipe for target 'cmTC_e539d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_e539d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_e539d/fast' failed
+mingw32-make.exe: *** [cmTC_e539d/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_41b5e/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_41b5e.dir\build.make CMakeFiles/cmTC_41b5e.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41b5e.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_41b5e.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_41b5e.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_41b5e.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_41b5e.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_41b5e.dir/objects.a @CMakeFiles\cmTC_41b5e.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_41b5e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_41b5e.exe -Wl,--out-implib,libcmTC_41b5e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_41b5e.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_41b5e.dir\build.make:87: recipe for target 'cmTC_41b5e.exe' failed
+mingw32-make.exe[1]: *** [cmTC_41b5e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_41b5e/fast' failed
+mingw32-make.exe: *** [cmTC_41b5e/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_d6d6b/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d6d6b.dir\build.make CMakeFiles/cmTC_d6d6b.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6d6b.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_d6d6b.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_d6d6b.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d6d6b.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_d6d6b.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d6d6b.dir/objects.a @CMakeFiles\cmTC_d6d6b.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_d6d6b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d6d6b.exe -Wl,--out-implib,libcmTC_d6d6b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d6d6b.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_d6d6b.dir\build.make:87: recipe for target 'cmTC_d6d6b.exe' failed
+mingw32-make.exe[1]: *** [cmTC_d6d6b.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_d6d6b/fast' failed
+mingw32-make.exe: *** [cmTC_d6d6b/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_0229e/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0229e.dir\build.make CMakeFiles/cmTC_0229e.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0229e.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_0229e.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_0229e.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_0229e.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_0229e.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0229e.dir/objects.a @CMakeFiles\cmTC_0229e.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_0229e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0229e.exe -Wl,--out-implib,libcmTC_0229e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0229e.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_0229e.dir\build.make:87: recipe for target 'cmTC_0229e.exe' failed
+mingw32-make.exe[1]: *** [cmTC_0229e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_0229e/fast' failed
+mingw32-make.exe: *** [cmTC_0229e/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_8675c/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8675c.dir\build.make CMakeFiles/cmTC_8675c.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8675c.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_8675c.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_8675c.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8675c.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_8675c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8675c.dir/objects.a @CMakeFiles\cmTC_8675c.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_8675c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8675c.exe -Wl,--out-implib,libcmTC_8675c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8675c.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_8675c.dir\build.make:87: recipe for target 'cmTC_8675c.exe' failed
+mingw32-make.exe[1]: *** [cmTC_8675c.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_8675c/fast' failed
+mingw32-make.exe: *** [cmTC_8675c/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_32aab/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_32aab.dir\build.make CMakeFiles/cmTC_32aab.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32aab.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_32aab.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_32aab.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_32aab.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_32aab.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_32aab.dir/objects.a @CMakeFiles\cmTC_32aab.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_32aab.dir/objects.a -Wl,--no-whole-archive  -o cmTC_32aab.exe -Wl,--out-implib,libcmTC_32aab.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_32aab.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_32aab.dir\build.make:87: recipe for target 'cmTC_32aab.exe' failed
+mingw32-make.exe[1]: *** [cmTC_32aab.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_32aab/fast' failed
+mingw32-make.exe: *** [cmTC_32aab/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_ef8e2/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ef8e2.dir\build.make CMakeFiles/cmTC_ef8e2.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef8e2.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_ef8e2.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_ef8e2.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ef8e2.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_ef8e2.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ef8e2.dir/objects.a @CMakeFiles\cmTC_ef8e2.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_ef8e2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ef8e2.exe -Wl,--out-implib,libcmTC_ef8e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ef8e2.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_ef8e2.dir\build.make:87: recipe for target 'cmTC_ef8e2.exe' failed
+mingw32-make.exe[1]: *** [cmTC_ef8e2.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_ef8e2/fast' failed
+mingw32-make.exe: *** [cmTC_ef8e2/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_6c133/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6c133.dir\build.make CMakeFiles/cmTC_6c133.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c133.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_6c133.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_6c133.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6c133.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_6c133.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_6c133.dir/objects.a @CMakeFiles\cmTC_6c133.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_6c133.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6c133.exe -Wl,--out-implib,libcmTC_6c133.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6c133.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_6c133.dir\build.make:87: recipe for target 'cmTC_6c133.exe' failed
+mingw32-make.exe[1]: *** [cmTC_6c133.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_6c133/fast' failed
+mingw32-make.exe: *** [cmTC_6c133/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_c58c1/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c58c1.dir\build.make CMakeFiles/cmTC_c58c1.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c58c1.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_c58c1.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_c58c1.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c58c1.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_c58c1.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c58c1.dir/objects.a @CMakeFiles\cmTC_c58c1.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_c58c1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c58c1.exe -Wl,--out-implib,libcmTC_c58c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c58c1.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_c58c1.dir\build.make:87: recipe for target 'cmTC_c58c1.exe' failed
+mingw32-make.exe[1]: *** [cmTC_c58c1.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_c58c1/fast' failed
+mingw32-make.exe: *** [cmTC_c58c1/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_cedee/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cedee.dir\build.make CMakeFiles/cmTC_cedee.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cedee.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_cedee.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_cedee.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cedee.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_cedee.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cedee.dir/objects.a @CMakeFiles\cmTC_cedee.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_cedee.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cedee.exe -Wl,--out-implib,libcmTC_cedee.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cedee.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_cedee.dir\build.make:87: recipe for target 'cmTC_cedee.exe' failed
+mingw32-make.exe[1]: *** [cmTC_cedee.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_cedee/fast' failed
+mingw32-make.exe: *** [cmTC_cedee/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_870d8/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_870d8.dir\build.make CMakeFiles/cmTC_870d8.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_870d8.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_870d8.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_870d8.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_870d8.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_870d8.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_870d8.dir/objects.a @CMakeFiles\cmTC_870d8.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_870d8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_870d8.exe -Wl,--out-implib,libcmTC_870d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_870d8.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_870d8.dir\build.make:87: recipe for target 'cmTC_870d8.exe' failed
+mingw32-make.exe[1]: *** [cmTC_870d8.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_870d8/fast' failed
+mingw32-make.exe: *** [cmTC_870d8/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_8fd4a/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8fd4a.dir\build.make CMakeFiles/cmTC_8fd4a.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fd4a.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_8fd4a.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_8fd4a.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8fd4a.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_8fd4a.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8fd4a.dir/objects.a @CMakeFiles\cmTC_8fd4a.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_8fd4a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8fd4a.exe -Wl,--out-implib,libcmTC_8fd4a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8fd4a.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_8fd4a.dir\build.make:87: recipe for target 'cmTC_8fd4a.exe' failed
+mingw32-make.exe[1]: *** [cmTC_8fd4a.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_8fd4a/fast' failed
+mingw32-make.exe: *** [cmTC_8fd4a/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_31247/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_31247.dir\build.make CMakeFiles/cmTC_31247.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31247.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_31247.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_31247.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_31247.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_31247.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_31247.dir/objects.a @CMakeFiles\cmTC_31247.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_31247.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31247.exe -Wl,--out-implib,libcmTC_31247.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_31247.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_31247.dir\build.make:87: recipe for target 'cmTC_31247.exe' failed
+mingw32-make.exe[1]: *** [cmTC_31247.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_31247/fast' failed
+mingw32-make.exe: *** [cmTC_31247/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_a9ad4/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a9ad4.dir\build.make CMakeFiles/cmTC_a9ad4.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9ad4.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_a9ad4.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_a9ad4.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a9ad4.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a9ad4.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a9ad4.dir/objects.a @CMakeFiles\cmTC_a9ad4.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a9ad4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a9ad4.exe -Wl,--out-implib,libcmTC_a9ad4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a9ad4.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_a9ad4.dir\build.make:87: recipe for target 'cmTC_a9ad4.exe' failed
+mingw32-make.exe[1]: *** [cmTC_a9ad4.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_a9ad4/fast' failed
+mingw32-make.exe: *** [cmTC_a9ad4/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_8d74f/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8d74f.dir\build.make CMakeFiles/cmTC_8d74f.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d74f.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_8d74f.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_8d74f.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8d74f.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_8d74f.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8d74f.dir/objects.a @CMakeFiles\cmTC_8d74f.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_8d74f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8d74f.exe -Wl,--out-implib,libcmTC_8d74f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8d74f.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_8d74f.dir\build.make:87: recipe for target 'cmTC_8d74f.exe' failed
+mingw32-make.exe[1]: *** [cmTC_8d74f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_8d74f/fast' failed
+mingw32-make.exe: *** [cmTC_8d74f/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_a6c4d/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a6c4d.dir\build.make CMakeFiles/cmTC_a6c4d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6c4d.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_a6c4d.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_a6c4d.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a6c4d.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a6c4d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a6c4d.dir/objects.a @CMakeFiles\cmTC_a6c4d.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a6c4d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a6c4d.exe -Wl,--out-implib,libcmTC_a6c4d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a6c4d.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_a6c4d.dir\build.make:87: recipe for target 'cmTC_a6c4d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_a6c4d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_a6c4d/fast' failed
+mingw32-make.exe: *** [cmTC_a6c4d/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_636a2/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_636a2.dir\build.make CMakeFiles/cmTC_636a2.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_636a2.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_636a2.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_636a2.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_636a2.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_636a2.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_636a2.dir/objects.a @CMakeFiles\cmTC_636a2.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_636a2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_636a2.exe -Wl,--out-implib,libcmTC_636a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_636a2.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_636a2.dir\build.make:87: recipe for target 'cmTC_636a2.exe' failed
+mingw32-make.exe[1]: *** [cmTC_636a2.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_636a2/fast' failed
+mingw32-make.exe: *** [cmTC_636a2/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_387aa/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_387aa.dir\build.make CMakeFiles/cmTC_387aa.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_387aa.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_387aa.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_387aa.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_387aa.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_387aa.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_387aa.dir/objects.a @CMakeFiles\cmTC_387aa.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_387aa.dir/objects.a -Wl,--no-whole-archive  -o cmTC_387aa.exe -Wl,--out-implib,libcmTC_387aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_387aa.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_387aa.dir\build.make:87: recipe for target 'cmTC_387aa.exe' failed
+mingw32-make.exe[1]: *** [cmTC_387aa.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_387aa/fast' failed
+mingw32-make.exe: *** [cmTC_387aa/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_dd2d5/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_dd2d5.dir\build.make CMakeFiles/cmTC_dd2d5.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dd2d5.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_dd2d5.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_dd2d5.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_dd2d5.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_dd2d5.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_dd2d5.dir/objects.a @CMakeFiles\cmTC_dd2d5.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_dd2d5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dd2d5.exe -Wl,--out-implib,libcmTC_dd2d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dd2d5.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_dd2d5.dir\build.make:87: recipe for target 'cmTC_dd2d5.exe' failed
+mingw32-make.exe[1]: *** [cmTC_dd2d5.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_dd2d5/fast' failed
+mingw32-make.exe: *** [cmTC_dd2d5/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_84f2d/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_84f2d.dir\build.make CMakeFiles/cmTC_84f2d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84f2d.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_84f2d.dir\testCXXCompiler.cxx.obj -c "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_84f2d.exe
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_84f2d.dir\link.txt --verbose=1
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_84f2d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_84f2d.dir/objects.a @CMakeFiles\cmTC_84f2d.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_84f2d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_84f2d.exe -Wl,--out-implib,libcmTC_84f2d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_84f2d.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lstdc++
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lgcc_s
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_84f2d.dir\build.make:87: recipe for target 'cmTC_84f2d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_84f2d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_84f2d/fast' failed
+mingw32-make.exe: *** [cmTC_84f2d/fast] Error 2
+
+
+
