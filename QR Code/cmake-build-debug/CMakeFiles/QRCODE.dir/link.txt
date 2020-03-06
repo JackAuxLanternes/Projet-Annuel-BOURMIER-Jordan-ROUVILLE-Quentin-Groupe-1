@@ -1,3 +1,0 @@
-C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\QRCODE.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\QRCODE.dir/objects.a @CMakeFiles\QRCODE.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\QRCODE.dir/objects.a -Wl,--no-whole-archive  -o QRCODE.exe -Wl,--out-implib,libQRCODE.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\QRCODE.dir\linklibs.rsp
