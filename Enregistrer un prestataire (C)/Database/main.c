@@ -1,18 +1,35 @@
-#include "mysql.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <winsock.h>
+#include <MYSQL/mysql.h>
 
-int main() {
-    MYSQL mysql;
+int main(int argc, char **argv)
+{
+    printf("\nhello");
+    MYSQL *con = mysql_init(NULL);
 
-    if(mysql_init(&mysql)==NULL) {
-        printf("\nInitialization error\n");
-        return 0;
+    if (con == NULL)
+    {
+        fprintf(stderr, "%s\n", mysql_error(con));
+        exit(1);
     }
 
-    mysql_real_connect(&mysql,"localhost","root","root","perfect-concierge",3307,NULL,0);
-
-    printf("Client version: %s",mysql_get_client_info());
-    printf("\nServer version: %s",mysql_get_server_info(&mysql));
-    mysql_close(&mysql);
-    return 1;
+    printf("\ntest");
+    if (mysql_real_connect(con, "localhost", "root", "root",
+                           "perfect-concierge", 3307, NULL, 0) == NULL)
+    {
+        fprintf(stderr, "%s\n", mysql_error(con));
+        mysql_close(con);
+        exit(1);
+    }
+    printf("\ntest2");
+    if (mysql_query(con, "SELECT * FROM USER"))
+    {
+        fprintf(stderr, "%s\n", mysql_error(con));
+        mysql_close(con);
+        exit(1);
+    }
+    printf("\ntest3");
+    mysql_close(con);
+    exit(0);
 }

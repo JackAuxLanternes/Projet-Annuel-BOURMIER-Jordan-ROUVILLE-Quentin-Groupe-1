@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - perfect-concierge@localhost" uuid="68e51968-541d-468a-8fe5-72df11d713ce">
+    <data-source source="LOCAL" name="perfect-concierge@localhost" uuid="96f33043-aeb5-4db3-bd31-b8d1efa56fcb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>

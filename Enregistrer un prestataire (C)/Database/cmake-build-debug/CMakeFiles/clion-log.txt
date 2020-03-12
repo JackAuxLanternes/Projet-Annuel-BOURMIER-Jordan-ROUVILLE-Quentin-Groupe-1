@@ -1,13 +1,4 @@
-C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_SH=CMAKE_SH-NOTFOUND -G "CodeBlocks - MinGW Makefiles" "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database"
--- Checking for module 'mysqlclient'
---   No package 'mysqlclient' found
-CMake Error at C:/Users/Quentin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/win/share/cmake-3.15/Modules/FindPkgConfig.cmake:458 (message):
-  A required package was not found
-Call Stack (most recent call first):
-  C:/Users/Quentin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/win/share/cmake-3.15/Modules/FindPkgConfig.cmake:637 (_pkg_check_modules_internal)
-  CMakeLists.txt:21 (pkg_check_modules)
-
-
--- Configuring incomplete, errors occurred!
-See also "D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug/CMakeFiles/CMakeError.log".
+C:\Users\Quentin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe -DCMAKE_SH=CMAKE_SH-NOTFOUND -G "CodeBlocks - MinGW Makefiles" "D:\Ecole\Cours\Projet Annuel\Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1\Enregistrer un prestataire (C)\Database"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/cmake-build-debug

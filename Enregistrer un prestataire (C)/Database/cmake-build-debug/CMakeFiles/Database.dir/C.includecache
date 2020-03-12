@@ -6,3 +6,13 @@
 
 #IncludeRegexTransform: 
 
+D:/Ecole/Cours/Projet Annuel/Projet-Annuel-BOURMIER-Jordan-ROUVILLE-Quentin-Groupe-1/Enregistrer un prestataire (C)/Database/main.c
+stdio.h
+-
+stdlib.h
+-
+winsock.h
+-
+MYSQL/mysql.h
+-
+
